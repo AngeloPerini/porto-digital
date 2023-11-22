@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e4e4e4;
+}
+
+/*Cabecario*/
+
+header {
+    background-color: #900C3F;
+    max-width: 100%;
+}
+
+.container_cabecario {
+    max-width: 1607px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_cabecario img {
+    width: 65px;
+    height: 65px;
+    margin: 10px;
+}
+
+.texto-cabecario {
+    margin-right: 33.5%;
+    color: white;
+}
+
+.conteudo_cabecario a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+.btn-gerenciar{
+    background-color: orangered;
+    margin-left: 680px;
+    height: 30px;
+    width: 160px;
+    margin-top: 20px;
+}
+.texto-btn{
+    text-decoration: inherit;
+    color: white;
+    
+}
+
+.txt-gestao {
+    margin-left: 180px;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+/*card*/
+.card {
+    margin-left: 580px;
+    background-color: #780000;
+    width: 340px;
+    height: 500px;
+    color: white;
+    margin-top: 350px;
+}
+
+.div-meio {
+    background-color: #900C3F;
+    width: 20rem;
+    color: #e4e4e4;
+    margin-left: 10px;
+}
+
+.texto {
+    margin-left: -10px;
+    padding: 10px 20px;
+
+}
+
+.img-medicos {
+    width: 280px;
+    height: 180px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.div-maior {
+    background-color: #780000a9;
+    align-items: center;
+    text-align: center;
+    color: #e4e4e4;
+    width: 500px;
+    height: 650px;
+    margin-left: 950px;
+    margin-top: -580px;
+}
+.modulo-1{
+    margin-top: 100px;
+    margin-right: 370px;
+}
+
+.div-titulo{
+    background-color: #900C3F;
+    
+}
+.div-sub{
+    background-color: rgba(220, 20, 60, 0.589);
+    margin-top: 160px;
+    padding: 10px 20px
+}
+.nav-texto-1 {
+    background-color: firebrick;
+    padding: 10px 20px;
+    text-align: justify;
+}
+.nav-texto-2 { 
+    background-color: firebrick;
+    padding: 10px 20px;
+    text-align: justify;
+    margin-top: 15px;
+}
+.nav-texto-3 {
+    background-color: firebrick;
+    padding: 10px 20px; 
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.scrollable-div {
+    width: 470px; /* Largura desejada da div */
+    height: 200px; /* Altura desejada da div */
+    overflow: auto; /* Adiciona barras de rolagem automaticamente quando necessário */
+    padding: 10px 20px;
+}
+.scrollable-div::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+.scrollable-div::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}.scrollable-div::-webkit-scrollbar-thumb {
+    background: rgba(90, 0, 0, 0.637); /* Cor do "polegar" da barra de rolagem */
+    border-radius: 12px; /* Borda arredondada */
+}
+.scrollable-div::-webkit-scrollbar-track {
+    background: #f592928f; /* Cor da faixa da barra de rolagem */
+    border-radius: 12px; /* Borda arredondada */
+}
+
+
+
+
+
+/*rodape*/
+
+.nav-rodape{
+    background-color: #900C3F;
+    margin-top: 100% absolute;
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+.texto-rodape{
+    color: white;
+    text-align: center;
+    position: relative;
+    height: auto;
+    left: 30%;
+    margin-top: 19%;
+}
+
+.nav-fim{
+    background-color: #900C3F;
+    cursor: pointer;
+    color: white;
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+}
+.nav-fim-texto{
+    margin-left: 870px;
+    display: flex;
+}
+/*fecha rodape*/

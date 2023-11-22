@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="src/imagens/decos-home-logo-ICONE REAL.ico">
+    <link rel="stylesheet" href="src/css/colaboradores.css">
+    <title>Decós Hospital - Gestão de Treinamentos</title>
+</head>
+<body>
+    <header>
+        <div class="container_cabecario">
+            <div class="logo_cabecario">
+                <a href="index.html"><img src="src/imagens/decos-home-logo.png" alt=Logo Hospital Decós></a>
+            </div>
+            <form class="search-form" action="src/MySQLdb/search.py" method="get">
+                <input type="text" name="q" placeholder="Buscar Colaborador..." />
+                <button type="submit">Buscar</button>
+            </form>
+            <div class="conteudo_cabecario">
+                <a class="texto-cabecario" href="login.html">Login</a>
+                <a class="texto-cabecario" href="index.html">Treinamentos</a>
+                <a class="texto-cabecario" href="Colaboradores.html">Colaboradores</a>
+                <a class="texto-cabecario" href="Dashboard.html">Dashboard</a>
+            </div>
+        </div>
+    </header>   
+    
+
+    <div class="scrollable-div">
+        <div class="div-maior">
+            <div class="div-titulo">
+                <h1> Colaboradores Ativos </h1>
+            </div>
+            <ul class="botoes">
+                <li>
+                    <button class="botao-selecionado">
+                        <div class="colaborador-selecionado" >
+                            <h2> Anderson ***** </h2>
+                            <h4> Supervisor </h4>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <div class="colaborador" >
+                            <h2> Mertens ***** </h2>
+                            <h4> Supervisor </h4>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <div class="colaborador" >
+                            <h2> Ferdinando ***** </h2>
+                            <p> Psicologo </p>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <div class="colaborador" >
+                            <h2> Roberto ***** </h2>
+                            <h4> Pesquisador </h4>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <div class="colaborador" >
+                            <h2> Beatriz ***** </h2>
+                            <h4> Neurologista </h4>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <div class="colaborador" >
+                            <h2> Leticia ***** </h2>
+                            <p> Cirurgiã </p>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <div class="colaborador" >
+                            <h2> Erika ***** </h2>
+                            <h4> Enfermeira </h4p>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <div class="colaborador" >
+                            <h2> Jose ***** </h2>
+                            <h4> Pediatra </h4>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <div class="colaborador" >
+                            <h2> Poliana ***** </h2>
+                            <h4> Dentista </h4>
+                        </div>
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <div class="colaborador" >
+                            <h2> Genilde ***** </h2>
+                            <ph4> Gerente </h4>
+                        </div>
+                    </button>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+
+    <div class="div-colab-maior">
+        <div class="div-funcao-colab"> 
+            <h2 class="texto"> Anderson ***** </h2>
+            <h3 class="texto"> Supervisor </h3>
+            <img class="img-perfil" src="#Gerente" alt="">
+        </div>
+        <div>
+            <button class="botao-colab-treinamento">
+                <a class="texto-1" href="hospitalar-clinico.html"> Treinamentos </a>
+            </button>
+        </div>
+            <div>
+                <button class="botao-colab">
+                    <a class="texto" href="dados.html"> Dados Pessoais </a>
+                </button>
+            </div>
+    </div>
+
+
+
+    <nav class="nav-fim">
+        <li class="nav-fim-texto">
+            <a onclick="window.scrollTo(0, 0)">Voltar ao topo</a>
+        </li>
+    </nav>
+    <footer>
+        <nav class="nav-rodape">
+            <h3 class="texto-rodape"> &copy; 2023 - Decós Day Hospital - 30.131.145/0001-92 • Todos os direitos reservados. </h3>
+            <p class="texto-rodape"></p>
+            
+        </nav>
+    </footer>
+    <script src="./src/js/main.js"></script>
+</body>
+</html>

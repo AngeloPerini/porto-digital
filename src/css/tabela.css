@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e4e4e4;
+}
+
+
+
+
+/*Cabecario*/
+
+header {
+    background-color: #900C3F;
+    max-width: 100%;
+}
+
+.container_cabecario {
+    max-width: 1607px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_cabecario img {
+    width: 65px;
+    height: 65px;
+    margin: 10px;
+}
+
+.texto-cabecario {
+    margin-right: 33.5%;
+    color: white;
+}
+
+.conteudo_cabecario a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+td {
+    border-bottom: 1px solid #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+/*rodape*/
+
+.nav-rodape {
+    background-color: #900C3F;
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.texto-rodape {
+    color: white;
+    text-align: center;
+    position: relative;
+    height: auto;
+    left: 30%;
+    margin-top: 19%;
+}
+
+.nav-fim {
+    background-color: #900C3F;
+    cursor: pointer;
+    color: white;
+    display: fixed;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.nav-fim-texto {
+    margin-left: 870px;
+    display: flex;
+}
+
+/*fecha rodape*/
